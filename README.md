@@ -51,6 +51,7 @@ Imagine an app that bridges the gap between "just saying hi" and truly knowing s
    - **For You:** Enjoy a personalized selection of random responses.
    - **Trends:** See the most popular answers and your uniqueness score.
 5. **Monthly Recap:** At the end of each month, receive a summary of your top similar friends and discover recurring themes in your answers.
+6. **Customizable Prompts:** Allow users to submit potential future prompts.
 
 ## Why Prompt?
 
@@ -62,48 +63,11 @@ Imagine an app that bridges the gap between "just saying hi" and truly knowing s
 - **Encouraging Daily Engagement:** With a simple, daily ritual, the app can boost consistent user engagement and build long-term habits.
 - **Data:** Data on current trends and consensus interest could become extremely valuable
 
-## Setup Instructions
-
-1. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-2. **Configure Firebase**
-   - Copy the template files:
-     ```bash
-     cp config/firebase.ts.example config/firebase.ts
-     cp ios/GoogleService-Info.plist.example ios/GoogleService-Info.plist
-     ```
-   - Update the files with your Firebase configuration values
-   - For Android, place your `google-services.json` in the `android/app/` directory
-
-3. **Environment Variables**
-   ```bash
-   cp .env.example .env
-   ```
-   Update the `.env` file with your configuration values
-
-4. **Start the App**
-   ```bash
-   npx expo start
-   ```
-
 ## Future Enhancements
 
-- **Customizable Prompts:** Allow users or brands to submit or vote on future prompts.
 - **Enhanced Analytics:** Provide deeper insights into user engagement and trending topics.
 - **Gamification:** Introduce badges or rewards for regular participation.
 - **Privacy Options:** Develop settings to control who can view your answers and interact with your content.
 - **Integrations:** Connect with other social platforms to expand your social network and share your insights.
 - **Prompt Black:** A more meaningful side of prompt with deeper questions
-
-## Flutter Setup
-
-1. Download flutter online
-2. Unzip and put flutter folder in desired location
-3. Update PATH to flutter folder shell environment settings file (.zshrc or .zshenv)
-4. Restart terminals and run ```flutter doctor```
-5. If issues run ```flutter doctor -v```
-6. Troubleshoot until issues resolved
-7. ```flutter run``` on project
+- **Prompt Circles** A way to create your own prompts in smaller circles with other chosen users
