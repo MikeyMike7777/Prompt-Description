@@ -11,7 +11,6 @@ Prompt is a social discovery app designed to help you learn more about your frie
 - [Features](#features)
 - [How It Works](#how-it-works)
 - [Why Prompt?](#why-prompt)
-- [Setup Instructions](#setup-instructions)
 - [Future Enhancements](#future-enhancements)
 
 ## Concept
